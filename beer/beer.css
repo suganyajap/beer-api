@@ -1,0 +1,50 @@
+.beer-container{
+    background-color: white;
+    margin:2rem;
+    border-radius:1rem;
+    transition:all 0.5s;
+    font-size:1.5rem;
+    background-color:white;
+    /* border:3px solid crimson; */
+    overflow: hidden;
+    width:350px;
+    letter-spacing:1px;
+    display:flex;
+
+  flex-wrap:wrap;
+  justify-content:space-around;
+    }
+    .beer-list{
+        display:flex;
+        gap:24px;
+        flex-wrap:wrap;
+        justify-content:space-around;
+    }
+.image{
+    margin-top:0px;
+   float:left;
+   width:350px;
+   height:367px;
+   
+}
+body{
+    background-image: linear-gradient(to right top, #d16bcd, #aa8df1, #7ba9ff, #54bfff, #55d1f9, #4cddf2, #5ae7e6, #76f0d7, #82f7c0, #9ffca1, #c7fe7f, #f4fb5f);
+    font-family: 'Playball', cursive;
+}
+.user-container:hover{
+    transform: scale(1.1);
+    box-shadow: 15px 15px 38px -11px rgba(0,0,0,0.5);
+    color:red;
+}
+.beer-details{
+
+   display:flex;
+   flex-direction: column;
+   margin-left:40px;
+   text-align:center;
+
+   /*align-items: center;
+    margin-top: 25px;
+    margin-left: 50px;*/
+    
+}
